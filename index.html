@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [10.4806, 66.9036], // EDIT coordinates to re-center map
+    center: [10.4806, -66.9036], // EDIT coordinates to re-center map
     zoom: 16,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -41,7 +41,7 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([10.4806, 66.9036]).addTo(map) // EDIT marker coordinates
+  L.marker([10.4806, -66.9036]).addTo(map) // EDIT marker coordinates
   .bindPopup("Caracas"); // EDIT pop-up text message
 
   </script>
